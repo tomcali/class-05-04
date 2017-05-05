@@ -2,6 +2,8 @@
 // html-routes.js - this file offers a set of routes for sending users to the various html pages
 // *********************************************************************************
 
+// this is not an essential routing file..  the public stuff is usually done from the public directory
+
 // Dependencies
 // =============================================================
 var path = require("path");

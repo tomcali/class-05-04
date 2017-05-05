@@ -2,6 +2,9 @@
 // api-routes.js - this file offers a set of routes for displaying and saving data to the db
 // *********************************************************************************
 
+// here we set up routes to respond to the client
+// client requests.... and json response... processed to handle the database changes
+
 // Dependencies
 // =============================================================
 var Book = require("../models/book.js");

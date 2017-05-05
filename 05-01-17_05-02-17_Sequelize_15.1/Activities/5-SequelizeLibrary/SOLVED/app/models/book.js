@@ -27,5 +27,8 @@ var Book = sequelize.define("book", {
 // Syncs with DB
 Book.sync();
 
+// no force true because that would cause replacement of records in the database
+// this would not be a good thing to do in production
+
 // Makes the Book Model available for other files (will also create a table)
 module.exports = Book;
